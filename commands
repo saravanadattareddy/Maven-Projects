@@ -1,0 +1,77 @@
+ mvn archetype:generate
+  321  mvn archetype:generate
+  322  mvn archetype:generate
+  323  mvn archetype:generate > test.out
+  324  cd project1
+  325  ls
+  326  vi pom.xml
+  327  mvn validate
+  328  mvn compile
+  329  mvn test
+  330  mvn package
+  331  ls
+  332  cd target/
+  333  ls
+  334  cd ..
+  335  ls
+  336  mvn clean
+  337  mvn install
+  338  ls
+  339  cd ..
+  340  mvn archetype:generate
+  341  mvn archetype:generate
+  342  cd ../web-app/
+  343  git clone "https://github.com/polarapu/maven-project1.git"
+  344  ls
+  345  cd maven-project1
+  346  ls
+  347  vi pom.xml
+  348  mvn clean install
+  349  ls
+  350  cd target/
+  351  ls
+  352  cd ..
+  353  vi pom.xml
+  354  mvn clean install
+  355  ls
+  356  cd target/
+  357  ls
+  358  cd ..
+  359  cd ..
+  360  cd project1
+  361  ls
+  362  cd target/
+  363  ls
+  364  vi pom.xml
+  365  vi pom.xml
+  366  cd ..
+  367  vi pom.xml
+  368  mvn install
+  369  vi pom.xml
+  370  mvn install
+  371  vi pom.xml
+  372  mvn install
+  373  ls
+  374  cd target/
+  375  ls
+  376  cd ..
+  377  cd ..
+  378  cd maven-projects
+  379  ls
+  380  git add .
+  381  git init
+  382  git add .
+  383  git commit -m "adding all files"
+  384  git branch
+  385  git checkout main
+  386  git push -u origin "https://github.com/saravanadattareddy/Maven-Projects.git"
+  387  git checkout master
+  388  git push origin master
+  389  git push origin main
+  390  git push
+  391  git push origin <branch>
+  392  git push origin <main>
+  393  git push origin main
+  394   git remote add origin "https://github.com/saravanadattareddy/Maven-Projects.git"
+  395  git push -u origin master
+  396  history
